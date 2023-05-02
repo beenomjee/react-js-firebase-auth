@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: var(--w);
+  margin: 0 auto;
+}
+.container > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+  padding: 0.8rem 0rem 0.8rem 1rem;
+  outline: none;
+}
+
+.container > input:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.container > span {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  font-size: 1.6rem;
+  transform: translate(0rem, -50%);
+  color: rgba(0, 120, 240, 0.44);
+  cursor: pointer;
+}
